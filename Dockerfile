@@ -2,7 +2,7 @@ FROM openjdk:latest
 VOLUME /tmp
 EXPOSE 8080
 
-ARG JAR_FILE=health_pgi-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=/
 
 ADD ${JAR_FILE} app.jar
 
